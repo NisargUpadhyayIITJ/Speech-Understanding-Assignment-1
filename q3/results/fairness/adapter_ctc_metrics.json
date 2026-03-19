@@ -1,0 +1,29 @@
+{
+  "model_name": "adapter_ctc",
+  "fairness_weight": 0.0,
+  "best_validation": {
+    "epoch": 0,
+    "train_loss": 0.0,
+    "overall_wer": 0.4811403508771929,
+    "male_wer": 0.4482456140350878,
+    "female_wer": 0.5140350877192982,
+    "gender_gap": 0.0657894736842104
+  },
+  "test_metrics": {
+    "overall_wer": 0.51953125,
+    "male_wer": 0.4390625,
+    "female_wer": 0.6000000000000001,
+    "gender_gap": 0.16093750000000007
+  },
+  "checkpoint_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q3/results/fairness/checkpoints/adapter_ctc.pt",
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 0.0,
+      "overall_wer": 0.4811403508771929,
+      "male_wer": 0.4482456140350878,
+      "female_wer": 0.5140350877192982,
+      "gender_gap": 0.0657894736842104
+    }
+  ]
+}

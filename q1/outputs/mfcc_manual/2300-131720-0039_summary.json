@@ -1,0 +1,22 @@
+{
+  "audio_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/data/librispeech_subset/audio/2300-131720-0039.wav",
+  "output_features_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/mfcc_manual/2300-131720-0039_mfcc_features.npz",
+  "num_frames": 237,
+  "num_coefficients": 13,
+  "sample_rate": 16000,
+  "frame_length_samples": 400,
+  "hop_length_samples": 160,
+  "n_fft": 512,
+  "config": {
+    "sample_rate": 16000,
+    "frame_ms": 25.0,
+    "hop_ms": 10.0,
+    "n_fft": 512,
+    "n_mels": 40,
+    "n_ceps": 13,
+    "pre_emphasis": 0.97,
+    "window": "hamming",
+    "fmin": 0.0,
+    "fmax": null
+  }
+}

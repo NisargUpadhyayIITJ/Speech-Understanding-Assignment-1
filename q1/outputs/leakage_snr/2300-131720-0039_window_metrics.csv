@@ -1,0 +1,4 @@
+window,leakage_percent,snr_db
+rectangular,30.2303,4.0616
+hamming,30.4784,4.5460
+hanning,32.0739,4.2567

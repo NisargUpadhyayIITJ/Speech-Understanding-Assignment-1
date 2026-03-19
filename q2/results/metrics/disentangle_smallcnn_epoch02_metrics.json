@@ -1,0 +1,10 @@
+{
+  "experiment_name": "disentangle_smallcnn_epoch02",
+  "clean_top1_accuracy": 0.25,
+  "augmented_top1_accuracy": 0.125,
+  "clean_eer": 0.29910714285714285,
+  "augmented_eer": 0.38839285714285715,
+  "clean_threshold": 0.9862772226333618,
+  "augmented_threshold": 0.9740606546401978,
+  "evaluation_environment": "telephone"
+}

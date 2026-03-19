@@ -1,0 +1,43 @@
+experiment:
+  name: baseline_smallcnn
+  type: baseline
+
+dataset:
+  hf_name: openslr/librispeech_asr
+  hf_subset: clean
+  hf_split: train.100
+  num_speakers: 8
+  train_utterances_per_speaker: 8
+  enroll_utterances_per_speaker: 2
+  test_utterances_per_speaker: 2
+
+audio:
+  sample_rate: 16000
+  segment_seconds: 2.0
+  n_fft: 400
+  hop_length: 160
+  n_mels: 40
+
+model:
+  embedding_dim: 128
+  speaker_code_dim: 64
+  environment_code_dim: 64
+
+loss:
+  adversarial_lambda: 1.0
+  environment_weight: 1.0
+  adversarial_weight: 0.2
+  reconstruction_weight: 0.5
+  correlation_weight: 0.05
+  consistency_weight: 0.0
+
+training:
+  seed: 1075
+  epochs: 4
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+evaluation:
+  batch_size: 16
+  environment_name: telephone

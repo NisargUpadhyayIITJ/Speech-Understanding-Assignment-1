@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+speech_venv/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / temp artifacts
+.DS_Store
+*.docx
+*.html
+*.zip
+
+# Local scratch artifacts
+artifacts/
+
+# Question 1: keep reports, plots, summaries, and small audio subset
+q1/outputs/pipeline_logs/
+q1/outputs/mfcc_manual/*.npz
+
+# Question 2: keep result tables/plots/metrics, ignore dataset cache only
+q2/results/cache/
+
+# Question 3: keep reports, plots, tables, and demo WAV pairs
+q3/cache/
+q3/results/fairness/checkpoints/

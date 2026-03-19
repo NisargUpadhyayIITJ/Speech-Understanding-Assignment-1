@@ -1,0 +1,65 @@
+{
+  "num_examples": 4,
+  "examples": [
+    {
+      "sample_id": "test_00000",
+      "source_gender": "male",
+      "source_age_bucket": "old",
+      "source_preset": "male_old",
+      "target_preset": "female_young",
+      "reference_text": "we are going to the football game tonight",
+      "original_asr": "they're going to the football game tonight.",
+      "transformed_asr": "they're going to the football game tonight.",
+      "original_wer": 0.375,
+      "transformed_wer": 0.375,
+      "snr_db": 32.08604431152344,
+      "log_spectral_distance": 0.6406764990124292
+    },
+    {
+      "sample_id": "test_00001",
+      "source_gender": "male",
+      "source_age_bucket": "young",
+      "source_preset": "male_young",
+      "target_preset": "female_young",
+      "reference_text": "you are so rude",
+      "original_asr": "you are so rude.",
+      "transformed_asr": "you are so rude.",
+      "original_wer": 0.25,
+      "transformed_wer": 0.25,
+      "snr_db": 30.414430618286133,
+      "log_spectral_distance": 2.259267014138491
+    },
+    {
+      "sample_id": "test_00002",
+      "source_gender": "male",
+      "source_age_bucket": "young",
+      "source_preset": "male_young",
+      "target_preset": "female_young",
+      "reference_text": "rapidan campaign may june",
+      "original_asr": "give them a campaign, may it tune.",
+      "transformed_asr": "give them a campaign, may it tune.",
+      "original_wer": 1.5,
+      "transformed_wer": 1.5,
+      "snr_db": 44.44734191894531,
+      "log_spectral_distance": 1.0362957365635352
+    },
+    {
+      "sample_id": "test_00003",
+      "source_gender": "female",
+      "source_age_bucket": "young",
+      "source_preset": "female_young",
+      "target_preset": "male_old",
+      "reference_text": "the prints are then delivered to the customer",
+      "original_asr": "the frames are then delivered to the cost list.",
+      "transformed_asr": "the frames are then delivered to the constants.",
+      "original_wer": 0.375,
+      "transformed_wer": 0.25,
+      "snr_db": 22.74445343017578,
+      "log_spectral_distance": 0.784044889766399
+    }
+  ],
+  "mean_original_wer": 0.625,
+  "mean_transformed_wer": 0.59375,
+  "mean_snr_db": 32.423067569732666,
+  "mean_log_spectral_distance": 1.1800710348702137
+}

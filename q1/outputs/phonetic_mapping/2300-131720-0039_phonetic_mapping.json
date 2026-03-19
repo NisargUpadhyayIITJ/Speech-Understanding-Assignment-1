@@ -1,0 +1,462 @@
+{
+  "audio_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/data/librispeech_subset/audio/2300-131720-0039.wav",
+  "segments_json": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/voiced_unvoiced/2300-131720-0039_voiced_unvoiced.json",
+  "model_name": "facebook/wav2vec2-base-960h",
+  "sample_rate": 16000,
+  "alignment_mode": "forced",
+  "alignment_score": -29.39056154694292,
+  "manual_boundaries_sec": [
+    0.04,
+    0.11,
+    0.15,
+    0.3,
+    0.61,
+    1.09,
+    1.2,
+    1.23,
+    1.29,
+    1.37,
+    1.47,
+    1.49,
+    1.57,
+    1.6,
+    1.84,
+    1.86,
+    2.0,
+    2.15,
+    2.24,
+    2.28,
+    2.32,
+    2.35
+  ],
+  "reference_boundaries_sec": [
+    0.4,
+    0.44,
+    0.46,
+    0.58,
+    0.64,
+    0.74,
+    0.8,
+    0.88,
+    0.94,
+    0.98,
+    1.3,
+    1.36,
+    1.4,
+    1.52,
+    1.72,
+    1.76,
+    1.8,
+    1.88
+  ],
+  "boundary_rmse_sec": 0.22563042992710652,
+  "token_segments": [
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 1,
+      "start_frame": 19,
+      "end_frame": 20,
+      "start_sec": 0.38,
+      "end_sec": 0.4,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 3,
+      "start_frame": 20,
+      "end_frame": 22,
+      "start_sec": 0.4,
+      "end_sec": 0.44,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 5,
+      "start_frame": 22,
+      "end_frame": 23,
+      "start_sec": 0.44,
+      "end_sec": 0.46,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "P",
+      "token_id": 23,
+      "state_index": 9,
+      "start_frame": 28,
+      "end_frame": 29,
+      "start_sec": 0.56,
+      "end_sec": 0.58,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 11,
+      "start_frame": 30,
+      "end_frame": 32,
+      "start_sec": 0.6,
+      "end_sec": 0.64,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 13,
+      "start_frame": 36,
+      "end_frame": 37,
+      "start_sec": 0.72,
+      "end_sec": 0.74,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "B",
+      "token_id": 24,
+      "state_index": 15,
+      "start_frame": 39,
+      "end_frame": 40,
+      "start_sec": 0.78,
+      "end_sec": 0.8,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 17,
+      "start_frame": 42,
+      "end_frame": 44,
+      "start_sec": 0.84,
+      "end_sec": 0.88,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 19,
+      "start_frame": 46,
+      "end_frame": 47,
+      "start_sec": 0.92,
+      "end_sec": 0.94,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "M",
+      "token_id": 17,
+      "state_index": 21,
+      "start_frame": 47,
+      "end_frame": 49,
+      "start_sec": 0.94,
+      "end_sec": 0.98,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "W",
+      "token_id": 18,
+      "state_index": 25,
+      "start_frame": 63,
+      "end_frame": 65,
+      "start_sec": 1.26,
+      "end_sec": 1.3,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 27,
+      "start_frame": 67,
+      "end_frame": 68,
+      "start_sec": 1.34,
+      "end_sec": 1.36,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 29,
+      "start_frame": 68,
+      "end_frame": 70,
+      "start_sec": 1.36,
+      "end_sec": 1.4,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 33,
+      "start_frame": 75,
+      "end_frame": 76,
+      "start_sec": 1.5,
+      "end_sec": 1.52,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 35,
+      "start_frame": 85,
+      "end_frame": 86,
+      "start_sec": 1.7,
+      "end_sec": 1.72,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 37,
+      "start_frame": 86,
+      "end_frame": 88,
+      "start_sec": 1.72,
+      "end_sec": 1.76,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "V",
+      "token_id": 25,
+      "state_index": 39,
+      "start_frame": 89,
+      "end_frame": 90,
+      "start_sec": 1.78,
+      "end_sec": 1.8,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 41,
+      "start_frame": 93,
+      "end_frame": 94,
+      "start_sec": 1.86,
+      "end_sec": 1.88,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "D",
+      "token_id": 14,
+      "state_index": 43,
+      "start_frame": 94,
+      "end_frame": 95,
+      "start_sec": 1.88,
+      "end_sec": 1.9,
+      "duration_sec": 0.02
+    }
+  ],
+  "mapped_segments": [
+    {
+      "label": "unvoiced",
+      "start_sec": 0.0,
+      "end_sec": 0.04,
+      "duration_sec": 0.04,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "voiced",
+      "start_sec": 0.02,
+      "end_sec": 0.11,
+      "duration_sec": 0.09,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 0.09,
+      "end_sec": 0.15,
+      "duration_sec": 0.06,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "voiced",
+      "start_sec": 0.13,
+      "end_sec": 0.3,
+      "duration_sec": 0.17,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 0.28,
+      "end_sec": 0.61,
+      "duration_sec": 0.33,
+      "dominant_phone": "H",
+      "overlap_labels": [
+        "H",
+        "T",
+        "E",
+        "P",
+        "R"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 0.59,
+      "end_sec": 1.09,
+      "duration_sec": 0.5,
+      "dominant_phone": "R",
+      "overlap_labels": [
+        "R",
+        "L",
+        "M",
+        "O",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.07,
+      "end_sec": 1.2,
+      "duration_sec": 0.13,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.18,
+      "end_sec": 1.23,
+      "duration_sec": 0.05,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.21,
+      "end_sec": 1.29,
+      "duration_sec": 0.08,
+      "dominant_phone": "W",
+      "overlap_labels": [
+        "W"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.27,
+      "end_sec": 1.37,
+      "duration_sec": 0.1,
+      "dominant_phone": "W",
+      "overlap_labels": [
+        "W",
+        "A",
+        "S"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.35,
+      "end_sec": 1.47,
+      "duration_sec": 0.12,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S",
+        "A"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.45,
+      "end_sec": 1.49,
+      "duration_sec": 0.04,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.47,
+      "end_sec": 1.57,
+      "duration_sec": 0.1,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.55,
+      "end_sec": 1.6,
+      "duration_sec": 0.05,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.58,
+      "end_sec": 1.84,
+      "duration_sec": 0.26,
+      "dominant_phone": "L",
+      "overlap_labels": [
+        "L",
+        "O",
+        "V"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.82,
+      "end_sec": 1.86,
+      "duration_sec": 0.04,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.84,
+      "end_sec": 2.0,
+      "duration_sec": 0.16,
+      "dominant_phone": "D",
+      "overlap_labels": [
+        "D",
+        "E"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.98,
+      "end_sec": 2.15,
+      "duration_sec": 0.17,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 2.13,
+      "end_sec": 2.24,
+      "duration_sec": 0.11,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "voiced",
+      "start_sec": 2.22,
+      "end_sec": 2.28,
+      "duration_sec": 0.06,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 2.26,
+      "end_sec": 2.32,
+      "duration_sec": 0.06,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "voiced",
+      "start_sec": 2.3,
+      "end_sec": 2.35,
+      "duration_sec": 0.05,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 2.33,
+      "end_sec": 2.385,
+      "duration_sec": 0.055,
+      "dominant_phone": null,
+      "overlap_labels": []
+    }
+  ]
+}

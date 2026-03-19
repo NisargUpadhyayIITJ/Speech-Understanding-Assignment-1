@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "experiment_name": "baseline_smallcnn",
+      "clean_top1_accuracy": 0.4375,
+      "augmented_top1_accuracy": 0.0625,
+      "clean_eer": 0.2544642857142857,
+      "augmented_eer": 0.3705357142857143,
+      "clean_threshold": 0.9970043897628784,
+      "augmented_threshold": 0.9913648366928101,
+      "evaluation_environment": "telephone"
+    },
+    {
+      "experiment_name": "disentangle_smallcnn",
+      "clean_top1_accuracy": 0.375,
+      "augmented_top1_accuracy": 0.25,
+      "clean_eer": 0.29910714285714285,
+      "augmented_eer": 0.32589285714285715,
+      "clean_threshold": 0.9979221820831299,
+      "augmented_threshold": 0.9966006278991699,
+      "evaluation_environment": "telephone"
+    },
+    {
+      "experiment_name": "improved_smallcnn",
+      "clean_top1_accuracy": 0.4375,
+      "augmented_top1_accuracy": 0.1875,
+      "clean_eer": 0.24107142857142858,
+      "augmented_eer": 0.3214285714285714,
+      "clean_threshold": 0.9990406632423401,
+      "augmented_threshold": 0.9980090260505676,
+      "evaluation_environment": "telephone"
+    }
+  ]
+}

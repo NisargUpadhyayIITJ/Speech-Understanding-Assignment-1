@@ -1,0 +1,22 @@
+{
+  "audio_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/data/librispeech_subset/audio/3575-170457-0025.wav",
+  "segment_start_sec": 4.75,
+  "segment_end_sec": 5.0,
+  "results": [
+    {
+      "window": "rectangular",
+      "leakage_percent": 24.197534968010697,
+      "snr_db": 5.17186249501298
+    },
+    {
+      "window": "hamming",
+      "leakage_percent": 24.100623724881842,
+      "snr_db": 5.380530749369787
+    },
+    {
+      "window": "hanning",
+      "leakage_percent": 25.407440566697613,
+      "snr_db": 5.079587446461737
+    }
+  ]
+}

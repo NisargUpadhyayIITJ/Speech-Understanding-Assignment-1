@@ -1,0 +1,5 @@
+sample_id,source_gender,source_age_bucket,target_preset,original_wer,transformed_wer,snr_db,log_spectral_distance
+test_00000,male,old,female_young,0.375,0.375,32.08604431152344,0.6406764990124292
+test_00001,male,young,female_young,0.25,0.25,30.414430618286133,2.259267014138491
+test_00002,male,young,female_young,1.5,1.5,44.44734191894531,1.0362957365635352
+test_00003,female,young,male_old,0.375,0.25,22.74445343017578,0.784044889766399

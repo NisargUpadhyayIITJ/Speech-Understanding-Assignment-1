@@ -1,0 +1,6 @@
+{
+  "num_speakers": 8,
+  "num_train_records": 64,
+  "num_enroll_records": 16,
+  "num_test_records": 16
+}

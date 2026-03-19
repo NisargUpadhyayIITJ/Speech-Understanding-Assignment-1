@@ -1,0 +1,41 @@
+{
+  "manifest_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/data/librispeech_subset/manifest.csv",
+  "output_root": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs",
+  "alignment_source": "transcript",
+  "model_name": "facebook/wav2vec2-base-960h",
+  "samples": [
+    {
+      "sample_id": "2300-131720-0039",
+      "audio_path": "audio/2300-131720-0039.wav",
+      "status": "completed",
+      "error": null,
+      "mfcc_summary_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/mfcc_manual/2300-131720-0039_summary.json",
+      "leakage_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/leakage_snr/2300-131720-0039_window_metrics.json",
+      "voiced_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/voiced_unvoiced/2300-131720-0039_voiced_unvoiced.json",
+      "phonetic_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/phonetic_mapping/2300-131720-0039_phonetic_mapping.json",
+      "boundary_rmse_sec": 0.22563042992710652
+    },
+    {
+      "sample_id": "3575-170457-0025",
+      "audio_path": "audio/3575-170457-0025.wav",
+      "status": "completed",
+      "error": null,
+      "mfcc_summary_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/mfcc_manual/3575-170457-0025_summary.json",
+      "leakage_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/leakage_snr/3575-170457-0025_window_metrics.json",
+      "voiced_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/voiced_unvoiced/3575-170457-0025_voiced_unvoiced.json",
+      "phonetic_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/phonetic_mapping/3575-170457-0025_phonetic_mapping.json",
+      "boundary_rmse_sec": 0.030248966924508403
+    },
+    {
+      "sample_id": "4992-41797-0017",
+      "audio_path": "audio/4992-41797-0017.wav",
+      "status": "completed",
+      "error": null,
+      "mfcc_summary_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/mfcc_manual/4992-41797-0017_summary.json",
+      "leakage_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/leakage_snr/4992-41797-0017_window_metrics.json",
+      "voiced_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/voiced_unvoiced/4992-41797-0017_voiced_unvoiced.json",
+      "phonetic_json_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/phonetic_mapping/4992-41797-0017_phonetic_mapping.json",
+      "boundary_rmse_sec": 0.25889754957602557
+    }
+  ]
+}

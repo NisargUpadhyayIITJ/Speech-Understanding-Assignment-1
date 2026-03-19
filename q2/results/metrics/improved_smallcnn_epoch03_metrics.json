@@ -1,0 +1,10 @@
+{
+  "experiment_name": "improved_smallcnn_epoch03",
+  "clean_top1_accuracy": 0.375,
+  "augmented_top1_accuracy": 0.125,
+  "clean_eer": 0.3080357142857143,
+  "augmented_eer": 0.42410714285714285,
+  "clean_threshold": 0.9935418367385864,
+  "augmented_threshold": 0.9882245063781738,
+  "evaluation_environment": "telephone"
+}

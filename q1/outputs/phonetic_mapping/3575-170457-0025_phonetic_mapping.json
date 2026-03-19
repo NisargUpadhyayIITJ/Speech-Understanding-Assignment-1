@@ -1,0 +1,1890 @@
+{
+  "audio_path": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/data/librispeech_subset/audio/3575-170457-0025.wav",
+  "segments_json": "/home/b23cs1037/DN/nisarg/speech/Speech-Understanding-Assignment-1/q1/outputs/voiced_unvoiced/3575-170457-0025_voiced_unvoiced.json",
+  "model_name": "facebook/wav2vec2-base-960h",
+  "sample_rate": 16000,
+  "alignment_mode": "forced",
+  "alignment_score": -57.3248975885556,
+  "manual_boundaries_sec": [
+    0.54,
+    0.86,
+    0.98,
+    1.09,
+    1.23,
+    1.3,
+    1.57,
+    1.81,
+    1.97,
+    2.19,
+    2.48,
+    2.67,
+    2.81,
+    2.89,
+    2.99,
+    3.28,
+    3.31,
+    3.4,
+    3.47,
+    3.87,
+    4.8,
+    5.02,
+    5.19,
+    5.22,
+    5.28,
+    6.0,
+    6.14,
+    6.75,
+    6.92,
+    7.32,
+    7.49,
+    7.64,
+    7.82,
+    7.86,
+    7.89,
+    7.97,
+    8.07,
+    8.23,
+    8.39,
+    8.63
+  ],
+  "reference_boundaries_sec": [
+    0.6,
+    0.64,
+    0.7,
+    0.74,
+    0.78,
+    0.84,
+    0.94,
+    0.98,
+    1.02,
+    1.04,
+    1.08,
+    1.18,
+    1.24,
+    1.26,
+    1.56,
+    1.58,
+    1.64,
+    1.66,
+    1.76,
+    1.78,
+    1.86,
+    1.92,
+    1.96,
+    2.04,
+    2.06,
+    2.1,
+    2.16,
+    2.28,
+    2.34,
+    2.36,
+    2.42,
+    2.54,
+    2.62,
+    2.66,
+    2.8,
+    2.86,
+    2.88,
+    2.94,
+    3.0,
+    3.04,
+    3.2,
+    3.24,
+    3.3,
+    3.36,
+    3.38,
+    3.42,
+    3.46,
+    3.52,
+    3.58,
+    3.68,
+    3.76,
+    3.8,
+    3.84,
+    4.68,
+    4.7,
+    4.84,
+    4.94,
+    4.98,
+    5.02,
+    5.06,
+    5.16,
+    5.2,
+    5.28,
+    5.32,
+    5.4,
+    5.42,
+    5.52,
+    5.56,
+    5.6,
+    5.7,
+    5.76,
+    5.82,
+    5.88,
+    5.9,
+    5.98,
+    6.06,
+    6.1,
+    6.16,
+    6.18,
+    6.24,
+    6.34,
+    6.4,
+    6.44,
+    6.5,
+    6.54,
+    6.58,
+    6.62,
+    6.64,
+    6.74,
+    6.78,
+    6.88,
+    6.92,
+    6.96,
+    7.02,
+    7.06,
+    7.12,
+    7.18,
+    7.22,
+    7.24,
+    7.28,
+    7.34,
+    7.46,
+    7.52,
+    7.56,
+    7.66,
+    7.68,
+    7.84,
+    7.88,
+    7.98,
+    8.04,
+    8.08,
+    8.14,
+    8.16,
+    8.2,
+    8.22,
+    8.36,
+    8.4,
+    8.48,
+    8.5
+  ],
+  "boundary_rmse_sec": 0.030248966924508403,
+  "token_segments": [
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 1,
+      "start_frame": 28,
+      "end_frame": 30,
+      "start_sec": 0.56,
+      "end_sec": 0.6,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "G",
+      "token_id": 21,
+      "state_index": 3,
+      "start_frame": 31,
+      "end_frame": 32,
+      "start_sec": 0.62,
+      "end_sec": 0.64,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 5,
+      "start_frame": 34,
+      "end_frame": 35,
+      "start_sec": 0.68,
+      "end_sec": 0.7,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 7,
+      "start_frame": 35,
+      "end_frame": 37,
+      "start_sec": 0.7,
+      "end_sec": 0.74,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 9,
+      "start_frame": 37,
+      "end_frame": 39,
+      "start_sec": 0.74,
+      "end_sec": 0.78,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 13,
+      "start_frame": 41,
+      "end_frame": 42,
+      "start_sec": 0.82,
+      "end_sec": 0.84,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 17,
+      "start_frame": 46,
+      "end_frame": 47,
+      "start_sec": 0.92,
+      "end_sec": 0.94,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 19,
+      "start_frame": 47,
+      "end_frame": 49,
+      "start_sec": 0.94,
+      "end_sec": 0.98,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 21,
+      "start_frame": 50,
+      "end_frame": 51,
+      "start_sec": 1.0,
+      "end_sec": 1.02,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 23,
+      "start_frame": 51,
+      "end_frame": 52,
+      "start_sec": 1.02,
+      "end_sec": 1.04,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "K",
+      "token_id": 26,
+      "state_index": 25,
+      "start_frame": 53,
+      "end_frame": 54,
+      "start_sec": 1.06,
+      "end_sec": 1.08,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "Y",
+      "token_id": 22,
+      "state_index": 29,
+      "start_frame": 58,
+      "end_frame": 59,
+      "start_sec": 1.16,
+      "end_sec": 1.18,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 31,
+      "start_frame": 60,
+      "end_frame": 62,
+      "start_sec": 1.2,
+      "end_sec": 1.24,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "U",
+      "token_id": 16,
+      "state_index": 33,
+      "start_frame": 62,
+      "end_frame": 63,
+      "start_sec": 1.24,
+      "end_sec": 1.26,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 37,
+      "start_frame": 77,
+      "end_frame": 78,
+      "start_sec": 1.54,
+      "end_sec": 1.56,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 39,
+      "start_frame": 78,
+      "end_frame": 79,
+      "start_sec": 1.56,
+      "end_sec": 1.58,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 41,
+      "start_frame": 81,
+      "end_frame": 82,
+      "start_sec": 1.62,
+      "end_sec": 1.64,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 43,
+      "start_frame": 82,
+      "end_frame": 83,
+      "start_sec": 1.64,
+      "end_sec": 1.66,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 47,
+      "start_frame": 87,
+      "end_frame": 88,
+      "start_sec": 1.74,
+      "end_sec": 1.76,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 49,
+      "start_frame": 88,
+      "end_frame": 89,
+      "start_sec": 1.76,
+      "end_sec": 1.78,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "C",
+      "token_id": 19,
+      "state_index": 51,
+      "start_frame": 92,
+      "end_frame": 93,
+      "start_sec": 1.84,
+      "end_sec": 1.86,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 53,
+      "start_frame": 95,
+      "end_frame": 96,
+      "start_sec": 1.9,
+      "end_sec": 1.92,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "D",
+      "token_id": 14,
+      "state_index": 55,
+      "start_frame": 97,
+      "end_frame": 98,
+      "start_sec": 1.94,
+      "end_sec": 1.96,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 57,
+      "start_frame": 101,
+      "end_frame": 102,
+      "start_sec": 2.02,
+      "end_sec": 2.04,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 59,
+      "start_frame": 102,
+      "end_frame": 103,
+      "start_sec": 2.04,
+      "end_sec": 2.06,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 61,
+      "start_frame": 103,
+      "end_frame": 105,
+      "start_sec": 2.06,
+      "end_sec": 2.1,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 65,
+      "start_frame": 107,
+      "end_frame": 108,
+      "start_sec": 2.14,
+      "end_sec": 2.16,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 69,
+      "start_frame": 113,
+      "end_frame": 114,
+      "start_sec": 2.26,
+      "end_sec": 2.28,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "U",
+      "token_id": 16,
+      "state_index": 71,
+      "start_frame": 116,
+      "end_frame": 117,
+      "start_sec": 2.32,
+      "end_sec": 2.34,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "P",
+      "token_id": 23,
+      "state_index": 73,
+      "start_frame": 117,
+      "end_frame": 118,
+      "start_sec": 2.34,
+      "end_sec": 2.36,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "P",
+      "token_id": 23,
+      "state_index": 75,
+      "start_frame": 120,
+      "end_frame": 121,
+      "start_sec": 2.4,
+      "end_sec": 2.42,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 77,
+      "start_frame": 126,
+      "end_frame": 127,
+      "start_sec": 2.52,
+      "end_sec": 2.54,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 79,
+      "start_frame": 129,
+      "end_frame": 131,
+      "start_sec": 2.58,
+      "end_sec": 2.62,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 81,
+      "start_frame": 131,
+      "end_frame": 133,
+      "start_sec": 2.62,
+      "end_sec": 2.66,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "W",
+      "token_id": 18,
+      "state_index": 85,
+      "start_frame": 139,
+      "end_frame": 140,
+      "start_sec": 2.78,
+      "end_sec": 2.8,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 87,
+      "start_frame": 142,
+      "end_frame": 143,
+      "start_sec": 2.84,
+      "end_sec": 2.86,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 89,
+      "start_frame": 143,
+      "end_frame": 144,
+      "start_sec": 2.86,
+      "end_sec": 2.88,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 91,
+      "start_frame": 146,
+      "end_frame": 147,
+      "start_sec": 2.92,
+      "end_sec": 2.94,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "B",
+      "token_id": 24,
+      "state_index": 95,
+      "start_frame": 149,
+      "end_frame": 150,
+      "start_sec": 2.98,
+      "end_sec": 3.0,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 97,
+      "start_frame": 151,
+      "end_frame": 152,
+      "start_sec": 3.02,
+      "end_sec": 3.04,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 101,
+      "start_frame": 159,
+      "end_frame": 160,
+      "start_sec": 3.18,
+      "end_sec": 3.2,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 103,
+      "start_frame": 161,
+      "end_frame": 162,
+      "start_sec": 3.22,
+      "end_sec": 3.24,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 105,
+      "start_frame": 164,
+      "end_frame": 165,
+      "start_sec": 3.28,
+      "end_sec": 3.3,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 107,
+      "start_frame": 167,
+      "end_frame": 168,
+      "start_sec": 3.34,
+      "end_sec": 3.36,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "W",
+      "token_id": 18,
+      "state_index": 109,
+      "start_frame": 168,
+      "end_frame": 169,
+      "start_sec": 3.36,
+      "end_sec": 3.38,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 111,
+      "start_frame": 169,
+      "end_frame": 171,
+      "start_sec": 3.38,
+      "end_sec": 3.42,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "D",
+      "token_id": 14,
+      "state_index": 113,
+      "start_frame": 171,
+      "end_frame": 173,
+      "start_sec": 3.42,
+      "end_sec": 3.46,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 117,
+      "start_frame": 175,
+      "end_frame": 176,
+      "start_sec": 3.5,
+      "end_sec": 3.52,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 119,
+      "start_frame": 178,
+      "end_frame": 179,
+      "start_sec": 3.56,
+      "end_sec": 3.58,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "M",
+      "token_id": 17,
+      "state_index": 123,
+      "start_frame": 183,
+      "end_frame": 184,
+      "start_sec": 3.66,
+      "end_sec": 3.68,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 125,
+      "start_frame": 187,
+      "end_frame": 188,
+      "start_sec": 3.74,
+      "end_sec": 3.76,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 127,
+      "start_frame": 188,
+      "end_frame": 190,
+      "start_sec": 3.76,
+      "end_sec": 3.8,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 129,
+      "start_frame": 190,
+      "end_frame": 192,
+      "start_sec": 3.8,
+      "end_sec": 3.84,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 133,
+      "start_frame": 233,
+      "end_frame": 234,
+      "start_sec": 4.66,
+      "end_sec": 4.68,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "F",
+      "token_id": 20,
+      "state_index": 135,
+      "start_frame": 234,
+      "end_frame": 235,
+      "start_sec": 4.68,
+      "end_sec": 4.7,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 139,
+      "start_frame": 241,
+      "end_frame": 242,
+      "start_sec": 4.82,
+      "end_sec": 4.84,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 143,
+      "start_frame": 246,
+      "end_frame": 247,
+      "start_sec": 4.92,
+      "end_sec": 4.94,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 145,
+      "start_frame": 248,
+      "end_frame": 249,
+      "start_sec": 4.96,
+      "end_sec": 4.98,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "V",
+      "token_id": 25,
+      "state_index": 147,
+      "start_frame": 250,
+      "end_frame": 251,
+      "start_sec": 5.0,
+      "end_sec": 5.02,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 149,
+      "start_frame": 252,
+      "end_frame": 253,
+      "start_sec": 5.04,
+      "end_sec": 5.06,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 153,
+      "start_frame": 257,
+      "end_frame": 258,
+      "start_sec": 5.14,
+      "end_sec": 5.16,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 155,
+      "start_frame": 259,
+      "end_frame": 260,
+      "start_sec": 5.18,
+      "end_sec": 5.2,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "B",
+      "token_id": 24,
+      "state_index": 159,
+      "start_frame": 263,
+      "end_frame": 264,
+      "start_sec": 5.26,
+      "end_sec": 5.28,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 161,
+      "start_frame": 265,
+      "end_frame": 266,
+      "start_sec": 5.3,
+      "end_sec": 5.32,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 165,
+      "start_frame": 269,
+      "end_frame": 270,
+      "start_sec": 5.38,
+      "end_sec": 5.4,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 167,
+      "start_frame": 270,
+      "end_frame": 271,
+      "start_sec": 5.4,
+      "end_sec": 5.42,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 171,
+      "start_frame": 275,
+      "end_frame": 276,
+      "start_sec": 5.5,
+      "end_sec": 5.52,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 173,
+      "start_frame": 277,
+      "end_frame": 278,
+      "start_sec": 5.54,
+      "end_sec": 5.56,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "D",
+      "token_id": 14,
+      "state_index": 175,
+      "start_frame": 279,
+      "end_frame": 280,
+      "start_sec": 5.58,
+      "end_sec": 5.6,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "W",
+      "token_id": 18,
+      "state_index": 179,
+      "start_frame": 284,
+      "end_frame": 285,
+      "start_sec": 5.68,
+      "end_sec": 5.7,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "O",
+      "token_id": 8,
+      "state_index": 181,
+      "start_frame": 287,
+      "end_frame": 288,
+      "start_sec": 5.74,
+      "end_sec": 5.76,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "M",
+      "token_id": 17,
+      "state_index": 183,
+      "start_frame": 290,
+      "end_frame": 291,
+      "start_sec": 5.8,
+      "end_sec": 5.82,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 185,
+      "start_frame": 293,
+      "end_frame": 294,
+      "start_sec": 5.86,
+      "end_sec": 5.88,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 187,
+      "start_frame": 294,
+      "end_frame": 295,
+      "start_sec": 5.88,
+      "end_sec": 5.9,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 191,
+      "start_frame": 298,
+      "end_frame": 299,
+      "start_sec": 5.96,
+      "end_sec": 5.98,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 195,
+      "start_frame": 302,
+      "end_frame": 303,
+      "start_sec": 6.04,
+      "end_sec": 6.06,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 197,
+      "start_frame": 303,
+      "end_frame": 305,
+      "start_sec": 6.06,
+      "end_sec": 6.1,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 199,
+      "start_frame": 307,
+      "end_frame": 308,
+      "start_sec": 6.14,
+      "end_sec": 6.16,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 201,
+      "start_frame": 308,
+      "end_frame": 309,
+      "start_sec": 6.16,
+      "end_sec": 6.18,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "L",
+      "token_id": 15,
+      "state_index": 203,
+      "start_frame": 311,
+      "end_frame": 312,
+      "start_sec": 6.22,
+      "end_sec": 6.24,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 207,
+      "start_frame": 316,
+      "end_frame": 317,
+      "start_sec": 6.32,
+      "end_sec": 6.34,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 209,
+      "start_frame": 318,
+      "end_frame": 320,
+      "start_sec": 6.36,
+      "end_sec": 6.4,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "M",
+      "token_id": 17,
+      "state_index": 211,
+      "start_frame": 321,
+      "end_frame": 322,
+      "start_sec": 6.42,
+      "end_sec": 6.44,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 213,
+      "start_frame": 324,
+      "end_frame": 325,
+      "start_sec": 6.48,
+      "end_sec": 6.5,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "M",
+      "token_id": 17,
+      "state_index": 215,
+      "start_frame": 325,
+      "end_frame": 327,
+      "start_sec": 6.5,
+      "end_sec": 6.54,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "B",
+      "token_id": 24,
+      "state_index": 217,
+      "start_frame": 328,
+      "end_frame": 329,
+      "start_sec": 6.56,
+      "end_sec": 6.58,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 219,
+      "start_frame": 330,
+      "end_frame": 331,
+      "start_sec": 6.6,
+      "end_sec": 6.62,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 221,
+      "start_frame": 331,
+      "end_frame": 332,
+      "start_sec": 6.62,
+      "end_sec": 6.64,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 225,
+      "start_frame": 336,
+      "end_frame": 337,
+      "start_sec": 6.72,
+      "end_sec": 6.74,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 227,
+      "start_frame": 337,
+      "end_frame": 339,
+      "start_sec": 6.74,
+      "end_sec": 6.78,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 231,
+      "start_frame": 343,
+      "end_frame": 344,
+      "start_sec": 6.86,
+      "end_sec": 6.88,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 233,
+      "start_frame": 344,
+      "end_frame": 346,
+      "start_sec": 6.88,
+      "end_sec": 6.92,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 235,
+      "start_frame": 347,
+      "end_frame": 348,
+      "start_sec": 6.94,
+      "end_sec": 6.96,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 237,
+      "start_frame": 349,
+      "end_frame": 351,
+      "start_sec": 6.98,
+      "end_sec": 7.02,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 239,
+      "start_frame": 352,
+      "end_frame": 353,
+      "start_sec": 7.04,
+      "end_sec": 7.06,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "Y",
+      "token_id": 22,
+      "state_index": 241,
+      "start_frame": 355,
+      "end_frame": 356,
+      "start_sec": 7.1,
+      "end_sec": 7.12,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "Y",
+      "token_id": 22,
+      "state_index": 245,
+      "start_frame": 358,
+      "end_frame": 359,
+      "start_sec": 7.16,
+      "end_sec": 7.18,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 247,
+      "start_frame": 360,
+      "end_frame": 361,
+      "start_sec": 7.2,
+      "end_sec": 7.22,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 249,
+      "start_frame": 361,
+      "end_frame": 362,
+      "start_sec": 7.22,
+      "end_sec": 7.24,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 251,
+      "start_frame": 362,
+      "end_frame": 364,
+      "start_sec": 7.24,
+      "end_sec": 7.28,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 253,
+      "start_frame": 365,
+      "end_frame": 367,
+      "start_sec": 7.3,
+      "end_sec": 7.34,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 257,
+      "start_frame": 371,
+      "end_frame": 373,
+      "start_sec": 7.42,
+      "end_sec": 7.46,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 259,
+      "start_frame": 375,
+      "end_frame": 376,
+      "start_sec": 7.5,
+      "end_sec": 7.52,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "N",
+      "token_id": 9,
+      "state_index": 261,
+      "start_frame": 377,
+      "end_frame": 378,
+      "start_sec": 7.54,
+      "end_sec": 7.56,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "C",
+      "token_id": 19,
+      "state_index": 263,
+      "start_frame": 381,
+      "end_frame": 383,
+      "start_sec": 7.62,
+      "end_sec": 7.66,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 265,
+      "start_frame": 383,
+      "end_frame": 384,
+      "start_sec": 7.66,
+      "end_sec": 7.68,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 269,
+      "start_frame": 391,
+      "end_frame": 392,
+      "start_sec": 7.82,
+      "end_sec": 7.84,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "S",
+      "token_id": 12,
+      "state_index": 271,
+      "start_frame": 392,
+      "end_frame": 394,
+      "start_sec": 7.84,
+      "end_sec": 7.88,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 275,
+      "start_frame": 398,
+      "end_frame": 399,
+      "start_sec": 7.96,
+      "end_sec": 7.98,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "B",
+      "token_id": 24,
+      "state_index": 279,
+      "start_frame": 401,
+      "end_frame": 402,
+      "start_sec": 8.02,
+      "end_sec": 8.04,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 281,
+      "start_frame": 403,
+      "end_frame": 404,
+      "start_sec": 8.06,
+      "end_sec": 8.08,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "I",
+      "token_id": 10,
+      "state_index": 283,
+      "start_frame": 406,
+      "end_frame": 407,
+      "start_sec": 8.12,
+      "end_sec": 8.14,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "G",
+      "token_id": 21,
+      "state_index": 285,
+      "start_frame": 407,
+      "end_frame": 408,
+      "start_sec": 8.14,
+      "end_sec": 8.16,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "H",
+      "token_id": 11,
+      "state_index": 287,
+      "start_frame": 408,
+      "end_frame": 410,
+      "start_sec": 8.16,
+      "end_sec": 8.2,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "T",
+      "token_id": 6,
+      "state_index": 289,
+      "start_frame": 410,
+      "end_frame": 411,
+      "start_sec": 8.2,
+      "end_sec": 8.22,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "D",
+      "token_id": 14,
+      "state_index": 293,
+      "start_frame": 416,
+      "end_frame": 418,
+      "start_sec": 8.32,
+      "end_sec": 8.36,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "R",
+      "token_id": 13,
+      "state_index": 295,
+      "start_frame": 418,
+      "end_frame": 420,
+      "start_sec": 8.36,
+      "end_sec": 8.4,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "E",
+      "token_id": 5,
+      "state_index": 297,
+      "start_frame": 422,
+      "end_frame": 424,
+      "start_sec": 8.44,
+      "end_sec": 8.48,
+      "duration_sec": 0.04
+    },
+    {
+      "label": "A",
+      "token_id": 7,
+      "state_index": 299,
+      "start_frame": 424,
+      "end_frame": 425,
+      "start_sec": 8.48,
+      "end_sec": 8.5,
+      "duration_sec": 0.02
+    },
+    {
+      "label": "M",
+      "token_id": 17,
+      "state_index": 301,
+      "start_frame": 426,
+      "end_frame": 428,
+      "start_sec": 8.52,
+      "end_sec": 8.56,
+      "duration_sec": 0.04
+    }
+  ],
+  "mapped_segments": [
+    {
+      "label": "unvoiced",
+      "start_sec": 0.0,
+      "end_sec": 0.54,
+      "duration_sec": 0.54,
+      "dominant_phone": null,
+      "overlap_labels": []
+    },
+    {
+      "label": "voiced",
+      "start_sec": 0.52,
+      "end_sec": 0.86,
+      "duration_sec": 0.34,
+      "dominant_phone": "I",
+      "overlap_labels": [
+        "I",
+        "N",
+        "A",
+        "G",
+        "I",
+        "A"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 0.84,
+      "end_sec": 0.98,
+      "duration_sec": 0.14,
+      "dominant_phone": "H",
+      "overlap_labels": [
+        "H",
+        "T"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 0.96,
+      "end_sec": 1.09,
+      "duration_sec": 0.13,
+      "dominant_phone": "H",
+      "overlap_labels": [
+        "H",
+        "A",
+        "N",
+        "K"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.07,
+      "end_sec": 1.23,
+      "duration_sec": 0.16,
+      "dominant_phone": "O",
+      "overlap_labels": [
+        "O",
+        "Y",
+        "K"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.21,
+      "end_sec": 1.3,
+      "duration_sec": 0.09,
+      "dominant_phone": "O",
+      "overlap_labels": [
+        "O",
+        "U"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.28,
+      "end_sec": 1.57,
+      "duration_sec": 0.29,
+      "dominant_phone": "T",
+      "overlap_labels": [
+        "T",
+        "H"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.55,
+      "end_sec": 1.81,
+      "duration_sec": 0.26,
+      "dominant_phone": "H",
+      "overlap_labels": [
+        "H",
+        "S",
+        "I",
+        "N",
+        "I",
+        "T"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 1.79,
+      "end_sec": 1.97,
+      "duration_sec": 0.18,
+      "dominant_phone": "C",
+      "overlap_labels": [
+        "C",
+        "I",
+        "D"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 1.95,
+      "end_sec": 2.19,
+      "duration_sec": 0.24,
+      "dominant_phone": "T",
+      "overlap_labels": [
+        "T",
+        "E",
+        "N",
+        "I",
+        "D"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 2.17,
+      "end_sec": 2.48,
+      "duration_sec": 0.31,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S",
+        "U",
+        "P",
+        "P"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 2.46,
+      "end_sec": 2.67,
+      "duration_sec": 0.21,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 2.65,
+      "end_sec": 2.81,
+      "duration_sec": 0.16,
+      "dominant_phone": "W",
+      "overlap_labels": [
+        "W",
+        "E"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 2.79,
+      "end_sec": 2.89,
+      "duration_sec": 0.1,
+      "dominant_phone": "I",
+      "overlap_labels": [
+        "I",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 2.87,
+      "end_sec": 2.99,
+      "duration_sec": 0.12,
+      "dominant_phone": "L",
+      "overlap_labels": [
+        "L",
+        "B",
+        "L"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 2.97,
+      "end_sec": 3.28,
+      "duration_sec": 0.31,
+      "dominant_phone": "B",
+      "overlap_labels": [
+        "B",
+        "E",
+        "R",
+        "E"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 3.26,
+      "end_sec": 3.31,
+      "duration_sec": 0.05,
+      "dominant_phone": "N",
+      "overlap_labels": [
+        "N"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 3.29,
+      "end_sec": 3.4,
+      "duration_sec": 0.11,
+      "dominant_phone": "E",
+      "overlap_labels": [
+        "E",
+        "W",
+        "E",
+        "N"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 3.38,
+      "end_sec": 3.47,
+      "duration_sec": 0.09,
+      "dominant_phone": "E",
+      "overlap_labels": [
+        "E",
+        "D"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 3.45,
+      "end_sec": 3.87,
+      "duration_sec": 0.42,
+      "dominant_phone": "R",
+      "overlap_labels": [
+        "R",
+        "E",
+        "N",
+        "O",
+        "M",
+        "O",
+        "D"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 3.85,
+      "end_sec": 4.8,
+      "duration_sec": 0.95,
+      "dominant_phone": "F",
+      "overlap_labels": [
+        "F",
+        "I"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 4.78,
+      "end_sec": 5.02,
+      "duration_sec": 0.24,
+      "dominant_phone": "L",
+      "overlap_labels": [
+        "L",
+        "I",
+        "I",
+        "V"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 5.0,
+      "end_sec": 5.19,
+      "duration_sec": 0.19,
+      "dominant_phone": "T",
+      "overlap_labels": [
+        "T",
+        "V",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 5.17,
+      "end_sec": 5.22,
+      "duration_sec": 0.05,
+      "dominant_phone": "O",
+      "overlap_labels": [
+        "O"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 5.2,
+      "end_sec": 5.28,
+      "duration_sec": 0.08,
+      "dominant_phone": "B",
+      "overlap_labels": [
+        "B"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 5.26,
+      "end_sec": 6.0,
+      "duration_sec": 0.74,
+      "dominant_phone": "B",
+      "overlap_labels": [
+        "B",
+        "E",
+        "A",
+        "W",
+        "M",
+        "N",
+        "I",
+        "N",
+        "O",
+        "L",
+        "D",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 5.98,
+      "end_sec": 6.14,
+      "duration_sec": 0.16,
+      "dominant_phone": "H",
+      "overlap_labels": [
+        "H",
+        "S"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 6.12,
+      "end_sec": 6.75,
+      "duration_sec": 0.63,
+      "dominant_phone": "E",
+      "overlap_labels": [
+        "E",
+        "M",
+        "A",
+        "L",
+        "M",
+        "B",
+        "E",
+        "I",
+        "L",
+        "R",
+        "E",
+        "R",
+        "T"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 6.73,
+      "end_sec": 6.92,
+      "duration_sec": 0.19,
+      "dominant_phone": "T",
+      "overlap_labels": [
+        "T",
+        "H",
+        "T",
+        "I"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 6.9,
+      "end_sec": 7.32,
+      "duration_sec": 0.42,
+      "dominant_phone": "R",
+      "overlap_labels": [
+        "R",
+        "R",
+        "Y",
+        "A",
+        "S",
+        "H",
+        "I",
+        "T",
+        "Y",
+        "E"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 7.3,
+      "end_sec": 7.49,
+      "duration_sec": 0.19,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S",
+        "H"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 7.47,
+      "end_sec": 7.64,
+      "duration_sec": 0.17,
+      "dominant_phone": "E",
+      "overlap_labels": [
+        "E",
+        "N",
+        "C"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 7.62,
+      "end_sec": 7.82,
+      "duration_sec": 0.2,
+      "dominant_phone": "C",
+      "overlap_labels": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 7.8,
+      "end_sec": 7.86,
+      "duration_sec": 0.06,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S",
+        "A"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 7.84,
+      "end_sec": 7.89,
+      "duration_sec": 0.05,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 7.87,
+      "end_sec": 7.97,
+      "duration_sec": 0.1,
+      "dominant_phone": "S",
+      "overlap_labels": [
+        "S",
+        "A"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 7.95,
+      "end_sec": 8.07,
+      "duration_sec": 0.12,
+      "dominant_phone": "A",
+      "overlap_labels": [
+        "A",
+        "B",
+        "R"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 8.05,
+      "end_sec": 8.23,
+      "duration_sec": 0.18,
+      "dominant_phone": "H",
+      "overlap_labels": [
+        "H",
+        "I",
+        "T",
+        "R",
+        "G"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 8.21,
+      "end_sec": 8.39,
+      "duration_sec": 0.18,
+      "dominant_phone": "D",
+      "overlap_labels": [
+        "D",
+        "R",
+        "T"
+      ]
+    },
+    {
+      "label": "voiced",
+      "start_sec": 8.37,
+      "end_sec": 8.63,
+      "duration_sec": 0.26,
+      "dominant_phone": "E",
+      "overlap_labels": [
+        "E",
+        "M",
+        "R",
+        "A"
+      ]
+    },
+    {
+      "label": "unvoiced",
+      "start_sec": 8.61,
+      "end_sec": 9.205,
+      "duration_sec": 0.595,
+      "dominant_phone": null,
+      "overlap_labels": []
+    }
+  ]
+}
